@@ -2,6 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+a:focus, 
+button:focus, 
+.menu-toggle:focus,
+.reg-btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+a:active, 
+button:active {
+    outline: none;
 }
 
 img {
