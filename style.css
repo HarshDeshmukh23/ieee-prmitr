@@ -409,7 +409,30 @@ body {
     opacity: 0.7;
 }
 
-/* --- RESPONSIVE ADJUSTMENTS for Moblie--- */
+#toTopBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: var(--ieee-blue); 
+    color: white;
+    cursor: pointer;
+    padding: 12px 16px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    box-shadow: var(--shadow);
+    transition: 0.3s;
+}
+
+#toTopBtn:hover {
+    background-color: var(--ieee-dark); 
+    transform: translateY(-5px);
+}
+
+/* --- Responsive for Moblie--- */
 @media screen and (max-width: 992px) {
     .hero h1 {
         font-size: 2.5rem;
@@ -486,8 +509,12 @@ body {
 
     .btn-main,
     .btn-sub {
-        margin: 0;
-        width: 100%;
+        padding: 0.6rem 1.2rem;
+        font-size: 0.85rem;
+        width: 100%;       
+        max-width: 250px;  
+        margin: 0 auto;
+        display: block;
     }
 
     .mentor-card {
@@ -532,6 +559,12 @@ body {
         font-size: 0.95rem;
     }
 
+    #toTopBtn {
+        bottom: 15px;
+        right: 15px;
+        padding: 10px 14px;
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width: 769px) {

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Utkarsh Thakare",
+    "role": "Chairperson",
+    "linkedin": "#",
+    "img": "./assets/profile.png",
+    "github": "#"
+  },
+  {
+    "name": "Parth Chaudhari",
+    "role": "Vice Chairperson",
+    "img": "./assets/parth_profile.jpeg",
+    "linkedin": "#",
+    "github": "#"
+  },
+  {
+    "name": "Krish Ninghot",
+    "role": "Secretary",
+    "img": "./assets/krish_profile.jpeg",
+    "linkedin": "https://www.linkedin.com/in/krish-ninghot-953a8a37a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFOCZoDsMSL6NG%2BOH2Nfw%2FA%3D%3D",
+    "github": "#"
+  },
+  {
+    "name": "Sarthak Deshmukh",
+    "role": "Treasurer",
+    "img": "./assets/profile.png",
+    "linkedin": "#",
+    "github": "#"
+  },
+  {
+    "name": "Harsh Deshmukh",
+    "role": "Webmaster",
+    "img": "./assets/harsh_profile.png",
+    "linkedin": "https://www.linkedin.com/in/harsh-deshmukh-23d/",
+    "github": "#"
+  },
+  {
+    "name": "Priyanka Rane",
+    "role": "Webmaster",
+    "img": "./assets/priyanka_profile.jpeg",
+    "linkedin": "https://www.linkedin.com/in/priyanka-rane-569124295?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "github": "#"
+  }
+]

@@ -12,6 +12,38 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    //Comittee
+    const committeeGrid = document.getElementById('committee-container');
+
+    if (committeeGrid) {
+        fetch('comittee.json')
+            .then(response => response.json())
+            .then(data => {
+                data.forEach(member => {
+                    committeeGrid.innerHTML += `
+                        <div class="member-card">
+                            <div class="card-img">
+                                <img src="${member.img}" alt="${member.name}">
+                            </div>
+                            <div class="card-body">
+                                <h5>${member.name}</h5>
+                                <span class="designation">${member.role}</span>
+                                <div class="social-icons">
+                                    <a href="${member.linkedin || '#'}" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="${member.github || '#'}" target="_blank"><i class="fab fa-github"></i></a>
+                                    ${member.email ? `
+                                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=${member.email}" target="_blank">
+                                            <i class="fas fa-envelope"></i>
+                                        </a>` : ''}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+            })
+            .catch(error => console.error('Error loading committee:', error));
+    }
+
     //Member
     const membersGrid = document.getElementById('members-container');
 
@@ -21,27 +53,27 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(members => {
                 members.forEach(person => {
                     membersGrid.innerHTML += `
-                    <div class="member-card">
-                        <div class="card-img">
-                            <img src="${person.img}" alt="${person.name}">
-                        </div>
-                        <div class="card-body">
-                            <h5>${person.name}</h5>
-                            <span class="designation">${person.role}</span>
-                            <div class="social-icons">
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                                <a href="#"><i class="fab fa-github"></i></a>
-                                ${person.email ? `
-                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=${person.email}" target="_blank">
-                                        <i class="fas fa-envelope"></i>
-                                    </a>
-                                ` : ''}
+                        <div class="member-card">
+                            <div class="card-img">
+                                <img src="${person.img}" alt="${person.name}">
+                            </div>
+                            <div class="card-body">
+                                <h5>${person.name}</h5>
+                                <span class="designation">${person.role}</span>
+                                <div class="social-icons">
+                                    <a href="${person.linkedin}" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="${person.github}" target="_blank"><i class="fab fa-github"></i></a>
+                                    ${person.email ? `
+                                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=${person.email}" target="_blank">
+                                            <i class="fas fa-envelope"></i>
+                                        </a>` : ''}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                `;
+                    `;
                 });
-            });
+            })
+            .catch(error => console.error('Error loading members:', error));
     }
 
     //Events 
@@ -51,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch('./events.json')
             .then(res => res.json())
             .then(data => {
-                container.innerHTML = ""; // Clear the "Stay tuned" message
+                container.innerHTML = "";
                 data.forEach(event => {
                     container.innerHTML += `
                         <div class="event-card">
@@ -75,4 +107,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 container.innerHTML = "<p>Stay tuned for more upcoming events!</p>";
             });
     }
+    // --- Scrolltotop ---
+    const toTopBtn = document.getElementById("toTopBtn");
+
+    window.onscroll = function () {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            toTopBtn.style.display = "block";
+        } else {
+            toTopBtn.style.display = "none";
+        }
+    };
+
+    toTopBtn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth" 
+        });
+    });
 });

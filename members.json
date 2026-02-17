@@ -1,20 +1,155 @@
 [
-    { "name": "Utkarsh Thakare", "role": "Chair Person", "email": "uthakare7890@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Parth Chaudhari", "role": "Vice-chair", "email": "parthchaudhari394@gmail.com", "img": "./assets/parth_profile.jpeg" },
-    { "name": "Krish Ninghot", "role": "Secretary", "email": "ninghotkrish@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Sarthak Deshmukh", "role": "Treasurer", "email": "sarthakdeshmukh165@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Harsh Deshmukh", "role": "Webmaster", "email": "harshsdeshmukh23@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Priyanka Rane", "role": "Webmaster", "email": "priyankarane2006@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Amruta Topale", "role": "Webmaster", "email": "", "img": "https://via.placeholder.com/300" },
-    { "name": "Krupa Sawarkar", "role": "Committee Member", "email": "krupasawarkar630@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Shrawani Wankhade", "role": "Committee Member", "email": "shrawaniw03@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Srushti Makwana", "role": "Committee Member", "email": "srushtimakwana022@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Tanushka Mathurkar", "role": "Committee Member", "email": "tanushkamath@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Lekha Sedani", "role": "Committee Member", "email": "sedanilekha@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Shrawan Wanve", "role": "Committee Member", "email": "shravanwanve@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Tanaya Sangole", "role": "Committee Member", "email": "tanayasangole@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Samruddhi Pande", "role": "Committee Member", "email": "samruddhipande1204@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Sanika Garde", "role": "Committee Member", "email": "gardesanika516@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Gauri Modak", "role": "Committee Member", "email": "gaurimodak1@gmail.com", "img": "https://via.placeholder.com/300" },
-    { "name": "Achal Dhande", "role": "Committee Member", "email": "achaldhande99@gmail.com", "img": "https://via.placeholder.com/300" }
+    {
+        "name": "Utkarsh Thakare",
+        "role": "Chair Person",
+        "email": "uthakare7890@gmail.com",
+        "img": "./assets/profile.png",
+        "linkedin": "#",
+        "github": "#"
+    },
+    {
+        "name": "Parth Chaudhari",
+        "role": "Vice-chair",
+        "email": "parthchaudhari394@gmail.com",
+        "img": "./assets/parth_profile.jpeg",
+        "linkedin": "#",
+        "github": "#"
+    },
+    {
+        "name": "Krish Ninghot",
+        "role": "Secretary",
+        "email": "ninghotkrish@gmail.com",
+        "img": "./assets/krish_profile.jpeg",
+        "linkedin": "https://www.linkedin.com/in/krish-ninghot-953a8a37a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFOCZoDsMSL6NG%2BOH2Nfw%2FA%3D%3D",
+        "github": "#"
+    },
+    {
+        "name": "Sarthak Deshmukh",
+        "role": "Treasurer",
+        "email": "sarthakdeshmukh165@gmail.com",
+        "img": "./assets/profile.png",
+        "linkedin": "#",
+        "github": "#"
+    },
+    {
+        "name": "Harsh Deshmukh",
+        "role": "Webmaster",
+        "email": "harshsdeshmukh23@gmail.com",
+        "img": "./assets/harsh_profile.png",
+        "linkedin": "https://www.linkedin.com/in/harsh-deshmukh-23d/",
+        "github": "#"
+    },
+    {
+        "name": "Priyanka Rane",
+        "role": "Webmaster",
+        "email": "priyankarane2006@gmail.com",
+        "img": "./assets/priyanka_profile.jpeg",
+        "linkedin": "https://www.linkedin.com/in/priyanka-rane-569124295?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+        "github": "#"
+    },
+    {
+        "name": "Amruta Topale",
+        "role": "Webmaster",
+        "email": "",
+        "img": "./assets/profile.png",
+        "linkedin": "#",
+        "github": "#"
+    },
+    {
+        "name": "Krupa Sawarkar",
+        "role": "Committee Member",
+        "email": "krupasawarkar630@gmail.com",
+        "img": "./assets/krupa_profile.jpeg",
+        "linkedin": "https://www.linkedin.com/in/krupa-sawarkar-b808ba322",
+        "github": "#"
+    },
+    {
+        "name": "Shrawani Wankhade",
+        "role": "Committee Member",
+        "email": "shrawaniw03@gmail.com",
+        "img": "./assets/profile.png",
+        "linkedin": "#",
+        "github": "#"
+    },
+    {
+        "name": "Srushti Makwana",
+        "role": "Committee Member",
+        "email": "srushtimakwana022@gmail.com",
+        "img": "./assets/srushti_profile.jpeg",
+        "linkedin": "www.linkedin.com/in/srushti-makwana-5a560b30b",
+        "github": "#"
+    },
+    {
+        "name": "Tanushka Mathurkar",
+        "role": "Committee Member",
+        "email": "tanushkamath@gmail.com",
+        "img": "./assets/tansushka_profile.jpeg",
+        "linkedin": "www.linkedin.com/in/tanushka-mathurkar",
+        "github": "#"
+    },
+    {
+        "name": "Lekha Sedani",
+        "role": "Committee Member",
+        "email": "sedanilekha@gmail.com",
+        "img": "./assets/lekha_profile.jpeg",
+        "linkedin": "https://www.linkedin.com/in/lekhasedani",
+        "github": "#"
+    },
+    {
+        "name": "Shrawan Wanve",
+        "role": "Committee Member",
+        "email": "shravanwanve@gmail.com",
+        "img": "./assets/shravan_profile.jpeg",
+        "linkedin": "https://www.linkedin.com/in/shravan-wanve-44097b312?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+        "github": "#"
+    },
+    {
+        "name": "Tanaya Sangole",
+        "role": "Committee Member",
+        "email": "tanayasangole@gmail.com",
+        "img": "./assets/tanaya_profile.jpeg",
+        "linkedin": "https://www.linkedin.com/in/tanaya-sangole-989858341/",
+        "github": "#"
+    },
+    {
+        "name": "Samruddhi Pande",
+        "role": "Committee Member",
+        "email": "samruddhipande1204@gmail.com",
+        "img": "./assets/profile.png",
+        "linkedin": "#",
+        "github": "#"
+    },
+    {
+        "name": "Sanika Garde",
+        "role": "Committee Member",
+        "email": "gardesanika516@gmail.com",
+        "img": "./assets/profile.png",
+        "linkedin": "#",
+        "github": "#"
+    },
+    {
+        "name": "Gauri Modak",
+        "role": "Committee Member",
+        "email": "gaurimodak1@gmail.com",
+        "img": "./assets/profile.png",
+        "linkedin": "#",
+        "github": "#"
+    },
+    {
+        "name": " Pranita Farsole",
+        "role": "Committee Member",
+        "email": "pranitafarsole18@gmail.com",
+        "img": "./assets/pranita_profile.jpeg",
+        "linkedin": "https://www.linkedin.com/in/pranita-farsole-291418338",
+        "github": "#"
+    },
+    
+    {
+        "name": "Achal Dhande",
+        "role": "Committee Member",
+        "email": "achaldhande99@gmail.com",
+        "img": "./assets/achal_profile.jpeg",
+        "linkedin": "https://www.linkedin.com/in/achal-dhande-08b7ba357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "#"
+    }
 ]
