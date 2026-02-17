@@ -180,23 +180,23 @@ body {
     color: white;
 }
 
-/* --- Overview & Mentor --- */
+/* ---Mentor --- */
 .about-flex {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns for mentors below */
+    grid-template-columns: 1fr 1fr; 
     gap: 2.5rem;
 }
 
 .about-text {
-    grid-column: 1 / -1; /* Forces text to take the WHOLE width above the cards */
+    grid-column: 1 / -1; 
     text-align: center;
     margin-bottom: 1rem;
 }
 
 .mentor-wrapper {
-    grid-column: 1 / -1; /* Container for mentors spans full width */
+    grid-column: 1 / -1; 
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Puts mentor cards side-by-side */
+    grid-template-columns: 1fr 1fr; 
     gap: 2rem;
 }
 
@@ -255,15 +255,100 @@ body {
 .member-card {
     background: white;
     border-radius: 0.75rem;
+    padding-top: 1.5rem;
     overflow: hidden;
     box-shadow: var(--shadow);
     text-align: center;
     transition: transform 0.3s;
 }
 
+.member-card img {
+    width: 150px !important;   
+    height: 150px !important; 
+    border-radius: 50%;         
+    object-fit: cover;         
+    display: block;
+    margin: 0 auto 1.5rem;      
+    border: 3px solid var(--ieee-blue); 
+}
+
 .member-card:hover {
     transform: translateY(-0.625rem);
 }
+
+/* ---Events Grid--- */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.event-card {
+    background: var(--white);
+    border-radius: 1.2rem;
+    padding: 2.5rem 2rem;
+    box-shadow: var(--shadow);
+    border-top: 10px solid var(--ieee-blue);
+    position: relative;
+    transition: 0.3s ease;
+    
+
+    display: flex;
+    flex-direction: column;
+}
+
+.event-card:hover { transform: translateY(-10px); }
+
+.event-status {
+    
+    position: relative; 
+    top: 0;
+    right: 0;
+    display: inline-block;
+    align-self: flex-start; 
+    margin-bottom: 1rem;
+    background: #28a745;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+
+.event-date {
+    display: block;
+    color: var(--ieee-blue);
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem; 
+}
+
+.event-content h3 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.event-details {
+    margin: 1rem 0; 
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 0.85rem; 
+    color: var(--gray-700);
+}
+
+.reg-btn {
+    margin-top: auto; 
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem;
+    border-radius: 8px;
+    background-color: var(--ieee-blue);
+}
+
+.reg-btn:hover { background-color: var(--ieee-dark); }
 
 .card-img img {
     width: 120px !important;
@@ -324,7 +409,7 @@ body {
     opacity: 0.7;
 }
 
-/* --- RESPONSIVE ADJUSTMENTS --- */
+/* --- RESPONSIVE ADJUSTMENTS for Moblie--- */
 @media screen and (max-width: 992px) {
     .hero h1 {
         font-size: 2.5rem;
@@ -410,6 +495,43 @@ body {
         text-align: center;
         align-items: center;
     }
+
+    .section-title {
+        font-size: 1.75rem; 
+        margin-bottom: 2rem;
+    }
+
+    .event-card {
+        padding: 1.5rem 1.2rem; 
+    }
+
+    .event-status {
+        position: relative; 
+        top: 0;
+        right: 0;
+        display: inline-block;
+        margin-bottom: 1rem;
+        font-size: 0.65rem;
+    }
+
+    .event-content h3 {
+        font-size: 1.2rem; 
+        line-height: 1.2;
+    }
+
+    .event-date {
+        font-size: 0.85rem;
+    }
+
+    .event-details span {
+        font-size: 0.85rem;
+    }
+
+    .reg-btn {
+        padding: 0.8rem; 
+        font-size: 0.95rem;
+    }
+
 }
 
 @media screen and (min-width: 769px) {

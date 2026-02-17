@@ -1,0 +1,20 @@
+[
+    { "name": "Utkarsh Thakare", "role": "Chair Person", "email": "uthakare7890@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Parth Chaudhari", "role": "Vice-chair", "email": "parthchaudhari394@gmail.com", "img": "./assets/parth_profile.jpeg" },
+    { "name": "Krish Ninghot", "role": "Secretary", "email": "ninghotkrish@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Sarthak Deshmukh", "role": "Treasurer", "email": "sarthakdeshmukh165@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Harsh Deshmukh", "role": "Webmaster", "email": "harshsdeshmukh23@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Priyanka Rane", "role": "Webmaster", "email": "priyankarane2006@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Amruta Topale", "role": "Webmaster", "email": "", "img": "https://via.placeholder.com/300" },
+    { "name": "Krupa Sawarkar", "role": "Committee Member", "email": "krupasawarkar630@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Shrawani Wankhade", "role": "Committee Member", "email": "shrawaniw03@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Srushti Makwana", "role": "Committee Member", "email": "srushtimakwana022@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Tanushka Mathurkar", "role": "Committee Member", "email": "tanushkamath@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Lekha Sedani", "role": "Committee Member", "email": "sedanilekha@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Shrawan Wanve", "role": "Committee Member", "email": "shravanwanve@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Tanaya Sangole", "role": "Committee Member", "email": "tanayasangole@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Samruddhi Pande", "role": "Committee Member", "email": "samruddhipande1204@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Sanika Garde", "role": "Committee Member", "email": "gardesanika516@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Gauri Modak", "role": "Committee Member", "email": "gaurimodak1@gmail.com", "img": "https://via.placeholder.com/300" },
+    { "name": "Achal Dhande", "role": "Committee Member", "email": "achaldhande99@gmail.com", "img": "https://via.placeholder.com/300" }
+]

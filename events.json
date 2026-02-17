@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Technical Paper Writing Workshop",
+        "date": "Feb 20-21, 2026",
+        "time": "9:00 AM - 11:00 AM",
+        "venue": "OS Lab",
+        "fee": "₹49/-",
+        "status": "Registration Open",
+        "description": "Learn to structure IEEE technical papers, select research topics, and master referencing formats.",
+        "formLink": "https://docs.google.com/forms/d/e/1FAIpQLScHZGDKGgbrFXLymLaCHzgUh9ESgH-dFQoeqaPzMisFTM1kzg/viewform?pli=1"
+    },
+    {
+        "title": "Arduino & PCB Designing",
+        "date": "Feb 21, 2026",
+        "time": "10:00 AM - 4:00 PM",
+        "venue": "EXTC Department",
+        "fee": "Free of Cost",
+        "status": "Registration Open",
+        "description": "A hands-on workshop on Arduino programming and PCB simulation using Tinkercad software.",
+        "formLink": "https://docs.google.com/forms/d/e/1FAIpQLSd8lheyM1yEqZMBnEXce2UXGFhtKxkOHFXhg-8lOfbwKi322A/viewform"
+    }
+]
